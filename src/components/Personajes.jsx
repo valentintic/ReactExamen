@@ -58,7 +58,7 @@ export default class Personajes extends Component {
                     <tr key={index}>
                       <td>{personaje.idPersonaje}</td>
                       <td>{personaje.nombre}</td>
-                      <td><img src={personaje.imagen} alt="" /></td>
+                      <td><img style={{width:"200px", height:"200px", maxHeight:"200px", maxWidth:"200px"}} src={personaje.imagen} alt="" /></td>
                       <td>{personaje.idSerie}</td>
                     </tr>
                   )
